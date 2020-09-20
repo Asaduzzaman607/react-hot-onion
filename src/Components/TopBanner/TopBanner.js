@@ -4,10 +4,10 @@ import './TopBanner.css';
 
 const TopBanner = () => {
     return (
-        <div className="container-fluid top-banner">
+        <div className="container top-banner">
             {/* <Navbar></Navbar> */}
             <div>
-                <h2>Best food waiting for your stomach</h2>
+                <h2>Best food waiting for your belly</h2>
                 
             </div>
             <div className="search-form">

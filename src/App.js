@@ -22,6 +22,7 @@ function App() {
           <Route path="/users">
           </Route>
           <Route path="/">
+            <TopBanner></TopBanner>
           <FoodBanner></FoodBanner>
           </Route>
         </Switch>
