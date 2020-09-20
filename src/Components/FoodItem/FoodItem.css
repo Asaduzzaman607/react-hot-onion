@@ -1,0 +1,17 @@
+.food-card{
+    border: none !important;
+    margin-top: 20px;
+    
+}
+.food-card .food-title{
+    font-size: 16px;
+    font-weight:normal;
+
+}
+.lead{
+    font-size:10px;
+}
+.food-img{
+    margin-top: 20px;
+    width: 70%;
+}

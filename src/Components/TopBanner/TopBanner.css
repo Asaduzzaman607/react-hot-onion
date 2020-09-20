@@ -1,0 +1,42 @@
+.top-banner{
+    background-image:url(../../images//bannerbackground.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:100vh;
+
+}
+.search-form{
+    display:flex;
+    justify-content: center;
+}
+.search-button{
+    background-color: #F91944;
+    padding:5px;
+    margin:5px;
+    border-radius:30px;
+    width:15%;
+    border: none;
+    color:white;
+    position: relative;
+    left: -45px;
+}
+
+input{
+        width: 300px !important;
+        border-radius: 40px !important;
+        border: none !important;
+        height: 45px !important;
+    }
+    input::placeholder {
+        font-size: 15px;
+        opacity: 0.5 !important;
+        padding-left: 5px;
+    }
+
+
+.form-control:focus {
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
